@@ -2,7 +2,7 @@
 
 /**
  * get_format - selects the correct format
- * @s: function to select
+ * @format: string to get the fotmat
  *
  * Return: pointer to the correcto function
  */

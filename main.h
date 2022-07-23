@@ -1,4 +1,4 @@
-#ifndef _PRINTF__
+#ifndef _PRINTF_
 #define _PRINTF_
 
 /* importing */ 
