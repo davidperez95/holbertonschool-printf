@@ -25,14 +25,18 @@ typedef struct print
 /* macos constant values */
 
 #define BUFFER 1024
+#define NUMBER_OF_BITS 8
 
 /* prototypes */
 
 int _printf(const char *format, ...);
 int _putchar(char c);
+int print_buffer(char *buffer, unsigned int count);
 int (*get_format(const char *format))(va_list);
-int print_char(va_list c);
-int print_string(va_list s);
+int print_char(va_list args);
+int print_string(va_list args);
+int print_decimal(va_list args);
+int print_binary(va_list args);
 
 /* macro functions */
 

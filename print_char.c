@@ -2,12 +2,13 @@
 
 /**
  * print_char - prints character
+ * @args: character to print
  *
- * Return: EXIT_SUCCESS
+ * Return: (1) sizeof char
  */
-int print_char(va_list c)
+int print_char(va_list args)
 {
-	char character = (char)va_arg(c, int);
+	char character = (char)va_arg(args, int);
 
 	_putchar(character);
 

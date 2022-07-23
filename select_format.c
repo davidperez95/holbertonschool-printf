@@ -11,10 +11,10 @@ int (*get_format(const char *format))(va_list)
 	print_t functions[] = {
 		{"c", print_char},
 		{"s", print_string},
-		/*
 		{"d", print_decimal},
 		{"i", print_decimal},
 		{"b", print_binary},
+		/*
 		{"u", print_unsigned},
 		{"o", print_octal},
 		{"x", print_hexadecimal},
