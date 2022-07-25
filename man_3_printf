@@ -172,6 +172,18 @@ No bugs known
 
 .SH EXAMPLES
 
+int main(void)
+{
+	int len;
+
+	len = _printf("Let's try to printf a simple sentence.\n");
+	_printf("Length:[%d, %i]\n", len, len);
+	_printf("Character:[%c]\n", 'H');
+	_printf("String:[%s]\n", "I am a string !");
+
+	return (0);
+}
+
 .SH SEE ALSO
 
 printf(1), asprintf(3), puts(3), scanf(3), setlocale(3),
